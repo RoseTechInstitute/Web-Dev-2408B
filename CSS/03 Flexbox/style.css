@@ -1,0 +1,33 @@
+.container{
+    background-color: aquamarine;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 3em; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.box1{
+    background: red;
+    height: 50px;
+    width: 150px;
+}
+.box2{
+    background: green;
+    height: 50px;
+    width: 150px;
+}
+.box3{
+    background: blue;
+    height: 50px;
+    width: 150px;
+}
+.box4{
+    background: yellow;
+    height: 50px;
+    width: 150px;
+}
