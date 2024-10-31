@@ -1,0 +1,22 @@
+.bi-whatsapp{
+    font-size: 60px;
+}
+.whatsappicon{
+    text-decoration: none;
+    color: green;
+    background-color: gray;
+    padding: 2em;
+    border-radius: 50%;
+    position: fixed;
+    left: 90%;
+    top: 80%;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.whatsappicon:hover{
+    color: gray;
+    background-color: green;
+}
+body{
+    height: 200vh;
+}
