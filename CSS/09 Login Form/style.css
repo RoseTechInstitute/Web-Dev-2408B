@@ -1,0 +1,31 @@
+body{
+    background-image: url('https://img.freepik.com/premium-photo/dark-mountain-landscape-with-mountains-lake-foreground_677426-144.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    input{
+        background-color: transparent;
+        padding: .5em 1em;
+        border: 1px solid whitesmoke;
+    }
+}
+.btn{
+    padding: .5em 1em;
+    transition: 1s all  ease;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
