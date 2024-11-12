@@ -1,0 +1,41 @@
+.logo{
+    width: 50px;
+    border: 1px solid #760a13;
+}
+.nav-Links{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-Links li a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.btn button{
+    background-color: #a1252f;
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: .2em ;
+}
+.btn button:hover{
+    background-color: #760a13;
+    cursor: pointer;
+}
+
+/* Medium Mobile */
+@media only screen and (max-width: 375px) {
+    nav{
+        justify-content: center;
+    }    
+}
