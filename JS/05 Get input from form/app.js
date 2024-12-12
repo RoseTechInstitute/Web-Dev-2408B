@@ -4,6 +4,8 @@ const weatherCheck = (event) =>{
     // console.log(event)
 
     let userCity = document.getElementById("userCity").value;
+
+    userCity = userCity.toLowerCase()
     console.log(userCity)
     if(userCity === "karachi"){
         console.log("Today weather is Cold! Take Your Jacket on")
