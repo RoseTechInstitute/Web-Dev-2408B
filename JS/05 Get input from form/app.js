@@ -8,9 +8,9 @@ const weatherCheck = (event) =>{
     userCity = userCity.toLowerCase()
     console.log(userCity)
     if(userCity === "karachi"){
-        console.log("Today weather is Cold! Take Your Jacket on")
+        console.log("Today weather is Cold! Keep Your Jacket on")
     } else if(userCity === "hydrabad"){
-        console.log("Today weather is Cold! Take Your Jacket on and avoid night outing!")
+        console.log("Today weather is Cold! Take Y  our Jacket on and avoid night outing!")
     }
     else{
         console.log("No Data Found, Sorry We have no enough data for your city")
